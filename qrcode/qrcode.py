@@ -4,7 +4,7 @@ import os
 
 version, level, qr_name = myqr.run(
     # Just input a URL or a sentence, then get your QR-Code named 'qrcode.png' in the current directory.
-    words="https://blog.csdn.net/qq_43827595",
+    words="https://u.wechat.com/EIK90ym6n48yHMjN__SYB-k",
     version=10,  # length:1-40
     level='H',
     picture="jienigui.gif",  # background jpg png bpm gif(less than 2MB)
@@ -16,3 +16,4 @@ version, level, qr_name = myqr.run(
 )
 
 # Output “line 16: mode: byte" means successful
+# In vscode, first change dir to current path in terminal
