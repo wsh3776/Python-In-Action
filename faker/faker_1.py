@@ -1,10 +1,16 @@
+'''
+@Date: 2020-03-21 10:59:11
+@FilePath: /Wilson79/GitHub/Python_In_Action/faker/faker_1.py
+@LastEditors: cs_shwei@163.com
+@LastEditTime: 2020-04-19 17:59:53
+'''
 from faker import Faker
 fake = Faker()  # 初始化
 
-for i in range(3):
+for i in range(30):
     print(fake.name())
-    print(fake.address())
-    print(fake.text())
+    # print(fake.address())
+    # print(fake.text())
     print("----------")
 
 """
